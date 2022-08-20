@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="item_button">
+        <item name="android:layout_width">70dp</item>
+        <item name="android:layout_height">70dp</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:background">@drawable/btn_bg</item>
+        <item name="android:textSize" tools:ignore="SpUsage">36dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">@font/lilita_one_regular</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="item_button_land">
+        <item name="android:layout_width">64dp</item>
+        <item name="android:layout_height">64dp</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:background">@drawable/btn_bg</item>
+        <item name="android:textSize" tools:ignore="SpUsage">36dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">@font/lilita_one_regular</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="circle_style">
+        <item name="android:layout_width">76dp</item>
+        <item name="android:layout_height">76dp</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:background">@drawable/circle_bg</item>
+        <item name="android:textSize" tools:ignore="SpUsage">32dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="item_button_view">
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:textSize">28sp</item>
+        <item name="cornerSize">16dp</item>
+        <item name="cornerRadius">4dp</item>
+        <item name="android:state_pressed">true</item>
+    </style>
+
+</resources>
